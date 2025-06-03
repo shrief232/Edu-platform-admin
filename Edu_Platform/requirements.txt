@@ -1,6 +1,8 @@
 asgiref==3.8.1
 certifi==2025.4.26
 cffi==1.17.1
+channels==4.2.2
+chardet==5.2.0
 charset-normalizer==3.4.1
 cryptography==44.0.2
 defusedxml==0.7.1
@@ -8,16 +10,22 @@ dj-rest-auth==7.0.1
 Django==4.2.16
 django-allauth==0.57.0
 django-cors-headers==4.3.1
+django-jazzmin @ git+https://github.com/farridav/django-jazzmin.git@d269874c96fe5ff6d231c3017cdd4650bc2f3105
 django-modeltranslation==0.19.15b1
+django-phonenumber-field==8.1.0
 djangorestframework==3.15.1
 djangorestframework-simplejwt==5.3.0
 idna==3.10
 mysqlclient==2.2.7
 oauthlib==3.2.2
+phonenumbers==9.0.6
+pillow==11.2.1
 pycparser==2.22
 PyJWT==2.9.0
+python-decouple==3.8
 python-dotenv==1.0.0
 python3-openid==3.2.0
+reportlab==4.4.1
 requests==2.32.3
 requests-oauthlib==2.0.0
 setuptools==79.0.1
