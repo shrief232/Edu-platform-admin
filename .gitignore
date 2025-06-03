@@ -1,1 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.mo
+*.db
+*.sqlite3
+*.pyo
 .env
+.env.*
+config/settings_local.py
+
+# VS Code
+.vscode/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# mypy / pytest
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Static & Media
+staticfiles/
+media/
+
+# Node (لو عندك front-end)
+node_modules/
+*.tsbuildinfo
+*.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Redis / Celery / Channels
+celerybeat-schedule
+*.pid
